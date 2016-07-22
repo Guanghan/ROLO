@@ -13,7 +13,7 @@
 # limitations under the License. 
 
 '''
-Script File: ROLO_step6_train_30_exp2.py
+Script File: ROLO_step6_train_30_exp3.py
 
 Description:
 
@@ -58,7 +58,7 @@ class ROLO_TF:
     w_img, h_img = [352, 240]
 
     # ROLO Network Parameters
-    rolo_weights_file = '/u03/Guanghan/dev/ROLO-dev/output/ROLO_model/model_step6_exp1.ckpt' #'/u03/Guanghan/dev/ROLO-dev/output/ROLO_model/model_dropout_30.ckpt'
+    rolo_weights_file = '/u03/Guanghan/dev/ROLO-dev/output/ROLO_model/model_step6_exp3.ckpt' 
     lstm_depth = 3
     num_steps = 6  # number of frames as an input sequence
     num_feat = 4096
