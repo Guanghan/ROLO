@@ -28,9 +28,27 @@ ROLO is currently an offline approach, and is expected to gain a performance boo
 ----
 ## Getting Started
 
-### 1. Download Data and Pre-trained Model
+### 1. Download Data and Pre-trained Models
 
 As a generic object detector, YOLO can be trained to recognize arbitrary objects. Nevertheless, as the performance of ROLO depends on the YOLO part, we choose the default YOLO small model in order to provide a fair comparison. We believed it unfair to give credit to the tracking module if we train a customized YOLO model. The model is pre-trained on ImageNet dataset and finetuned on VOC dataset, capable of detecting objects of only 20 classes. We therefore picked 30 out of 100 videos from the benchmark [OTB100](http://cvlab.hanyang.ac.kr/tracker_benchmark/datasets.html), where the tracking targets belong to these classes. The subset is so-called OTB30.
+
+**DATA**
+
+- [DATA and Results for Demo](http://guanghan.info/projects/ROLO/DATA/DATA.zip)
+
+**Models**
+
+- [Model for demo](http://guanghan.info/projects/ROLO/demo/model_demo.ckpt)
+
+- [Model for experiment 1](http://guanghan.info/projects/ROLO/experiment_1/model_step6_exp1.ckpt)
+
+- Model for experiment 2: [step=1](http://guanghan.info/projects/ROLO/experiment_2/model_step1_exp2.ckpt), [step=3](http://guanghan.info/projects/ROLO/experiment_2/model_step3_exp2.ckpt), [step=6](http://guanghan.info/projects/ROLO/experiment_2/model_step6_exp2.ckpt), [step=9](http://guanghan.info/projects/ROLO/experiment_2/model_step9_exp2.ckpt)
+
+- [Model for experiment 3](http://guanghan.info/projects/ROLO/experiment_3/model_step3_exp3.ckpt)
+
+**Evaluation**
+
+- [Evaluation Results (including other trackers)](http://guanghan.info/projects/ROLO/output/evaluation.rar)
 
 ### 2. Run Demo
 
@@ -190,6 +208,15 @@ ROLO is released under the Apache License Version 2.0 (refer to the LICENSE file
 ## Citation
 The details are published as a technical report on arXiv. If you use the code and models, please cite the following paper:
 [arXiv:1607.05781](http://arxiv.org/abs/1607.05781).
+
+	@article{ning2016spatially,
+        title = "{Spatially Supervised Recurrent Convolutional Neural Networks for Visual Object Tracking}",    
+        author = {{Ning}, G. and {Zhang}, Z. and {Huang}, C. and {He}, Z. and 
+        {Ren}, X. and {Wang}, H.},
+        journal = {ArXiv e-prints: 1607.05781},
+        year = {2016}
+    }
+
 
 ---
 ## Reference
