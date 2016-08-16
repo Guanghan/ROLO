@@ -210,12 +210,11 @@ The details are published as a technical report on arXiv. If you use the code an
 [arXiv:1607.05781](http://arxiv.org/abs/1607.05781).
 
 	@article{ning2016spatially,
-        title = "{Spatially Supervised Recurrent Convolutional Neural Networks for Visual Object Tracking}",    
-        author = {{Ning}, G. and {Zhang}, Z. and {Huang}, C. and {He}, Z. and 
-        {Ren}, X. and {Wang}, H.},
-        journal = {ArXiv e-prints: 1607.05781},
-        year = {2016}
-    }
+	  title={Spatially Supervised Recurrent Convolutional Neural Networks for Visual Object Tracking},
+	  author={Ning, Guanghan and Zhang, Zhi and Huang, Chen and He, Zhihai and Ren, Xiaobo and Wang, Haohong},
+	  journal={arXiv preprint arXiv:1607.05781},
+	  year={2016}
+	}
 
 
 ---
